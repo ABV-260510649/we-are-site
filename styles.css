@@ -25,6 +25,24 @@ body{
     font-weight: 700;
 }
 
+.fa-quote-left {
+    position: relative;
+    z-index: -1;
+    color: rgba(0,0,0,0.4);
+    left: 20px;
+    bottom: 10px;
+    font-size: 3rem;
+}
+
+.fa-quote-right{
+    position: relative;
+    z-index: -1;
+    color: rgba(0,0,0,0.4);
+    right: 15px;
+    bottom: 5px;
+    font-size: 3rem;
+}
+
 .container{
     margin: 4rem;
     display: flex;
