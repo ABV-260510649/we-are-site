@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.mission-statement{
+    text-align: center;
+    padding: 10rem;
+    background-image: url('/Images/Viewbook\ bkgrnd.png');
+    color: white;
+    font-size: 24px;
+}
+
+.container{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faith, .scholarship, .service{
+    border: 2px solid black;
+    padding: 5rem;
+    box-shadow: 2px 2px 10px black;
+}
+
+#facts{
+    text-align: center;
+}
+
+.fact{
+    text-align: center;
+    padding: 2rem;
+}
