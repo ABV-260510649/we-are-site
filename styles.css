@@ -35,7 +35,6 @@ body{
     100%   { opacity: 1; }
 }
 
-
 .mission-statement h1{
     font-weight: 400;
 }
@@ -76,9 +75,15 @@ body{
     text-align: center;
 }
 
-.fact{
-    text-align: center;
-    padding: 2rem;
+.facts-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fact img{
+    max-width: 300px;
 }
 
 /* Thanks abigale */
