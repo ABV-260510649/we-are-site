@@ -74,18 +74,28 @@ body{
     margin: 2rem;
     min-height: 500px;
     flex-wrap: wrap;
+
 }
 
 .faith{
     flex-grow: 2;
+    background-image: url(/Images/faith.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .scholarship{
-    flex-grow: 1.3;
+    flex-grow: 1.5;
+    background-image: url(/Images/science_BW4A2566.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .service{
     flex-grow: 2;
+    background-image: url(/Images/naomi.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #facts{
