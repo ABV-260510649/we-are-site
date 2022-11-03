@@ -9,21 +9,36 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.red{
+    color: #b0203d;
+    text-transform: uppercase;
+    font-weight: 700;
+    animation: fadein 2s;
+}
+
+.slow{
+    animation: fadein 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
 .mission-statement{
     text-align: center;
     padding: 7rem;
     font-size: 24px;
 }
 
+@keyframes fadein {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
 .mission-statement h1{
     font-weight: 400;
 }
 
-.red{
-    color: #b0203d;
-    text-transform: uppercase;
-    font-weight: 700;
-}
 
 .fa-quote-left {
     position: relative;
@@ -77,9 +92,15 @@ body{
     text-align: center;
 }
 
-.fact{
-    text-align: center;
-    padding: 2rem;
+.facts-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fact img{
+    max-width: 300px;
 }
 
 /* Thanks abigale */
