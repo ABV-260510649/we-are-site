@@ -133,18 +133,19 @@ body{
 
 
 .faith{
-    flex-grow: 2;
+    flex-grow: 2.2;
     background-image: url(/Images/faith.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .scholarship{
-    flex-grow: 1.6;
+    flex-grow: 1.1;
+    flex-shrink: 1;
     background-image: url(/Images/science_BW4A2566.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 350px;
+    /* max-width: 350px; */
 }
 
 .service{
@@ -171,7 +172,7 @@ body{
 }
 
 .card h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white;
 }
 
