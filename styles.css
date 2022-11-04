@@ -113,4 +113,8 @@ body{
     max-width: 300px;
 }
 
+.fact h1, .fact h2, .fact h3{
+    text-align: center;
+}
+
 /* Thanks abigale */
