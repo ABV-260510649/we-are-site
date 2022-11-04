@@ -81,6 +81,10 @@ body{
     flex-wrap: wrap;
     position: relative;
     transition: all 1s ease-in-out;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .card:hover{
@@ -88,14 +92,33 @@ body{
 }
 
 .card h1 {
-    height: 100%;
-    padding-top: 100%;
     color: white;
     transition: all 1s ease-in-out;
+
   }
 
   .card h1:hover {
-    transform: translateY(-30%);
+    transform: translateY(-600%); 
+  }
+
+  @keyframes slideup {
+    0% { padding-top: 100%; }
+    100%   { padding-top: 60%;}
+}
+
+  .text{
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    padding-top: 1000%;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    
+  }
+
+  .text:hover{
+    opacity: 1;
   }
 
 .faith{
