@@ -73,10 +73,9 @@ body{
 .cards{
     background-image: url(/Images/Viewbook\ bkgrnd.png);
     padding: 5rem 0;
-}
+} 
 
 .card{
-    border: 2px solid black;
     margin: 2rem;
     min-height: 500px;
     flex-wrap: wrap;
