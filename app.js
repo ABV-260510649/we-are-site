@@ -18,4 +18,3 @@ const cycleText = () => {
 cycleText();
 setInterval(cycleText, 2000);
 
-
