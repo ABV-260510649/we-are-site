@@ -1,7 +1,7 @@
-const textList = ["Nursing", "Optometry", "Chiropractic", "Law (Juris Doctorate)",
-"Epidemiology", "Occupational Therapy", "Nurse Practitioner","Pharmacy", "Graduate", "Physician's Assistant", "Medical", "Veterinary"];
+const textList = ["Nursing", "Pharmacy", "Chiropractic", "Law (Juris Doctorate)", "Physician's Assistant ",
+"Occupational Therapy", "Medical", "Optometry","Graduate", "Epidemiology", "Nurse Practitioner", "Veterinary"];
 
-const percentList = ["100%", "100%", "100%", "100%", "100%", "100%", "100%","98%","93%","92%","90%","90%"];
+const percentList = ["100%", "98%", "100%", "100%", "92%", "100%", "90%","100%","93%","100%","100%","90%"];
 
 const cycle = document.querySelector("#cycle");
 const percent = document.querySelector("#percentCycle");
@@ -16,6 +16,6 @@ const cycleText = () => {
   j = ++j % percentList.length;
 };
 cycleText();
-setInterval(cycleText, 3000);
+setInterval(cycleText, 2000);
 
 
