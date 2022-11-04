@@ -167,7 +167,7 @@ body{
         max-width: 400px;
         min-width:399px;
     }
-  }
+}
 
 /* QUICK FACTS */
 
@@ -218,7 +218,7 @@ hr{
 }
 
 .info-3{
-    padding-top: .2rem;
+    padding-top: .1rem;
 }
 
 #cycle{
@@ -234,6 +234,31 @@ hr{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+@media(max-width:600px){
+    .facts-container{
+        flex-direction: column;
+        padding:0;
+        margin: 0;
+    }
+
+    .fact .fa-solid{
+        padding-top: 3rem;
+    }
+
+    .fact h2{
+        font-size: 2.5rem;
+    }
+
+    .fact h3{
+        font-size: 1.3rem;
+    }
+
+    .info-2, .info-3{
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /* Thanks abigale */
