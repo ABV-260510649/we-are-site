@@ -120,6 +120,21 @@ body{
 }
 
 
+@media(max-width:1190px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .card{
+        max-width: 400px;
+        min-width:399px;
+    }
+  }
+
 /* QUICK FACTS */
 
 .quick-facts{
