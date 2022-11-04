@@ -71,7 +71,8 @@ body{
 }
 
 .cards{
-    background-image: url(/Images/ViewbookCoverWht-01.jpg);
+    background-image: url(/Images/Viewbook\ bkgrnd.png);
+    padding: 5rem 0;
 }
 
 .card{
