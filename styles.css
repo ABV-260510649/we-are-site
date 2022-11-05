@@ -101,14 +101,16 @@ body{
 }
 
 .card h1 {
-    color: black;
+    color: white;
     transition: all 1s ease-in-out;
     z-index: 10;
+    font-size: 2.5rem;
+    padding-left: 1rem;
 
-  }
+}
 
   .card h1:hover {
-    transform: translateY(-600%); 
+    transform: translateY(-450%); 
   }
 
   @keyframes slideup {
@@ -117,18 +119,34 @@ body{
 }
 
   .text{
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: 300;
     position: absolute;
     bottom: 0;
     height: 100%;
     padding-top: 1000%;
     opacity: 0;
     transition: all 1s ease-in-out;
-    color: black;
+    color: white;
   }
 
   .text:hover{
     opacity: 1;
+  }
+
+  .btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0.75rem;
+    position: absolute;
+    margin-top: 1rem;
+    border-radius: 10px;
+    transition: all 80ms ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.05);
   }
 
 
@@ -171,14 +189,6 @@ body{
     }
 }
 
-.card h1{
-    font-size: 3rem;
-    color: white;
-}
-
-.text{
-    color: white;
-}
 
 /* QUICK FACTS */
 
