@@ -1,20 +1,75 @@
-const textList = ["Nursing", "Pharmacy", "Chiropractic", "Law (Juris Doctorate)", "Physician's Assistant ",
-"Occupational Therapy", "Medical", "Optometry","Graduate", "Epidemiology", "Nurse Practitioner", "Veterinary"];
+// Select all slides
+const slides = document.querySelectorAll(".slide");
+const percentages = document.querySelectorAll(".percentSlide");
 
-const percentList = ["100%", "98%", "100%", "100%", "92%", "100%", "90%","100%","93%","100%","100%","90%"];
+// loop through slides and set each slides translateX property to index * 100% 
+slides.forEach((slide, indx) => {
+  slide.style.transform = `translateX(${indx * 100}%)`;
+});
 
-const cycle = document.querySelector("#cycle");
-const percent = document.querySelector("#percentCycle");
-i = 0;
-j = 0;
+percentages.forEach((percent, indx) => {
+  percent.style.transform = `translateX(${indx * 100}%)`;
+});
 
-const cycleText = () => {
-  cycle.innerHTML = textList[i];
-  i = ++i % textList.length;
+// select next slide button
+const nextSlide = document.querySelector(".btn-next");
 
-  percent.innerHTML = percentList[j];
-  j = ++j % percentList.length;
-};
-cycleText();
-setInterval(cycleText, 2000);
+// current slide counter
+let curSlide = 0;
+// maximum number of slides
+let maxSlide = slides.length - 1;
+
+const moveSlideRight = () => {
+    // check if current slide is the last and reset current slide
+    if (curSlide === maxSlide) {
+      curSlide = 0;
+    } else {
+      curSlide++;
+    }
+
+  slides.forEach((slide, indx) => {
+    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+  });
+
+  percentages.forEach((percent, indx) => {
+    percent.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+  });
+}
+
+// add event listener
+nextSlide.addEventListener("click", function () {
+  //call move slide right
+  moveSlideRight();
+  clearInterval(interval);
+});
+
+// select prev slide button
+const prevSlide = document.querySelector(".btn-prev");
+
+const moveSlideLeft = () => {
+  // check if current slide is the first and reset current slide to last
+  if (curSlide === 0) {
+    curSlide = maxSlide;
+  } else {
+    curSlide--;
+  }
+
+  //   move slide by 100%
+  slides.forEach((slide, indx) => {
+    slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+  });
+
+  percentages.forEach((percent, indx) => {
+    percent.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
+  });
+}
+
+// add event listener
+prevSlide.addEventListener("click", function () {
+  moveSlideLeft();
+  clearInterval(interval);
+});
+
+const interval = setInterval(moveSlideRight, 3000)
+
 
