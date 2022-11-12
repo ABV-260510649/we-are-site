@@ -88,6 +88,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    border-radius: 0;
+    border: 0;
 }
 
 .overlay{
@@ -146,6 +148,7 @@ body{
 
   .btn:hover{
     transform: scale(1.05);
+    color: white;
   }
 
 
@@ -185,13 +188,13 @@ body{
     font-size: 1.5rem;
 }
 
-hr{
+/* hr{
     width:20%;
     margin-left: 40%;
     height: 5px;
     border-radius: 5px;
     background-color: #b0203d;
-}
+} */
 
 .facts-container{
     display: flex;
