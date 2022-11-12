@@ -27,7 +27,7 @@ body{
 
 .mission-statement{
     text-align: center;
-    padding: 7rem;
+    padding: 3.5rem 6rem;
     font-size: 24px;
 }
 
@@ -72,7 +72,7 @@ body{
 
 .cards{
     background-image: url(/Images/Viewbook\ bkgrnd.png);
-    padding: 5rem 0;
+    padding: 4rem 0;
 } 
 
 /* I also gave this a width of 30% */
@@ -95,7 +95,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.5);
     overflow: hidden;
 } 
 
@@ -159,7 +159,7 @@ body{
 .scholarship{
     flex-grow: 1.1;
     flex-shrink: 1;
-    background-image: url(/Images/science_BW4A2566.jpg);
+    background-image: url(/Images/JJ_four.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* max-width: 350px; */
@@ -176,7 +176,7 @@ body{
 /* QUICK FACTS */
 
 .quick-facts{
-    margin:5rem 7rem;
+    margin:4rem 6rem;
 }
 
 #facts{
