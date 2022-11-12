@@ -27,8 +27,12 @@ body{
 
 .mission-statement{
     text-align: center;
-    padding: 3.5rem 6rem;
+    padding: 5rem 7rem;
     font-size: 24px;
+}
+
+.mission-statement h1{
+    line-height: 1.7;
 }
 
 @keyframes fadein {
@@ -109,14 +113,14 @@ body{
     color: rgba(102, 20, 36, .9);
     transition: all 1s ease-in-out;
     z-index: 10;
+    font-weight: 700;
     font-size: 2.5rem;
     padding-left: 1rem;
-
 }
 
-  .card h1:hover {
+.card h1:hover {
     transform: translateY(-450%); 
-  }
+}
 
 
   .text{
@@ -186,6 +190,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 /* hr{
@@ -304,7 +309,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 @media (max-width: 1300px){
     .card h1:hover {
         transform: translateY(-500%); 
