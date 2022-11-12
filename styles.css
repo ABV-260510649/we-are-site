@@ -72,7 +72,7 @@ body{
 
 .cards{
     background-image: url(/Images/Viewbook\ bkgrnd.png);
-    padding: 5rem 0;
+    padding: 4rem 0;
 } 
 
 /* I also gave this a width of 30% */
@@ -95,7 +95,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.5);
     overflow: hidden;
 } 
 
