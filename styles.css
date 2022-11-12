@@ -225,6 +225,10 @@ hr{
     color:#808080 ;
 }
 
+.info{
+    height: 213.5px;
+}
+
 .info-2{
     height: 213.5px;
 }
@@ -244,7 +248,7 @@ hr{
 .slider{
   width: 100%;
   position: relative;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
 }
 
@@ -263,7 +267,7 @@ hr{
   }
 
   #grad{
-    padding-top: 4rem;
+    padding-top: 4.6rem;
   }
 
   .button {
@@ -275,17 +279,19 @@ hr{
     z-index: 10px;
     cursor: pointer;
     background-color: transparent;
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .btn-prev {
-    top: 30%;
-    left: -2%;
+    top: 60%;
+    left: 25%;
+    color: rgb(102, 20, 36);
   }
   
   .btn-next {
-    top: 30%;
-    right: -2%;
+    top: 60%;
+    right: 25%;
+    color: rgb(102, 20, 36);
   }
 
 .icon{
@@ -300,22 +306,20 @@ hr{
     .card h1:hover {
         transform: translateY(-500%); 
       }
-      .info-1, .info-2{
-        margin-right: 7rem;
-    }
-    
-    .fact h3{
-        font-size: 1.5rem;
-    }
 
+      .slider{
+        height: 300px;
+      }
+}
 
-    .info-2{
-        width: 50%;
-    }
-
-    .info-1, .info-3{
-        padding-top: 2rem;
-    }
+@media (max-width: 1250px){
+    .btn-prev {
+        top: 70%;
+      }
+      
+      .btn-next {
+        top: 70%;
+      }
 }
 
 
@@ -332,9 +336,64 @@ hr{
         max-width: 400px;
         min-width:399px;
     }
+
+    .info{
+        height: 350px;
+    }
+
+    .slider{
+        height: 350px
+    }
+
+    .fact h3{
+        font-size: 1.3rem;
+    }
+
+    .btn-prev {
+        top: 50%;
+      }
+      
+      .btn-next {
+        top: 50%;
+      }
 }
 
-@media(max-width:600px){
+@media(max-width:950px){
+    .btn-prev {
+        top: 50%;
+        left: 15%;
+
+      }
+      
+      .btn-next {
+        top: 50%;
+        right: 15%;
+
+      }
+}
+
+@media(max-width:900px){
+    .btn-prev {
+        top: 60%;
+        left: 15%;
+
+      }
+      
+      .btn-next {
+        top: 60%;
+        right: 15%;
+      }
+}
+
+
+@media(max-width:850px){
+    .mission-statement{
+        padding: 2rem;
+    }
+    .mission-statement h1{
+        font-size: 28px;
+    }
+
     .facts-container{
         flex-direction: column;
         padding:0;
@@ -353,19 +412,34 @@ hr{
         font-size: 1.3rem;
     }
 
-    .info-2, .info-3{
+    .info-1, .info-2, .info-3{
         padding: 0;
         margin: 0;
+        margin-bottom: 1rem;
     }
+
+      .info-1, .info-2, .info-3{
+        width: 100%;
+    }
+
+    .info-3{
+        order: 2;
+    }
+
+    .info-2{
+        order: 3;
+    }
+
+    .btn-prev {
+        top: 40%;
+        left: 30%;
+      }
+      
+      .btn-next {
+        top: 40%;
+        right: 30%;
+      }
 }
 
-@media(max-width:750px){
-    .mission-statement{
-        padding: 2rem;
-    }
-    .mission-statement h1{
-        font-size: 28px;
-    }
-}
 
 /* Thanks abigale */
