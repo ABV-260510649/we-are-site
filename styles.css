@@ -200,6 +200,10 @@ hr{
     padding:2rem 0rem;
 }
 
+.fact{
+    width: 30%;
+}
+
 .info-1, .info-2{
     margin-right: 5rem;
 }
@@ -296,6 +300,22 @@ hr{
     .card h1:hover {
         transform: translateY(-500%); 
       }
+      .info-1, .info-2{
+        margin-right: 7rem;
+    }
+    
+    .fact h3{
+        font-size: 1.5rem;
+    }
+
+
+    .info-2{
+        width: 50%;
+    }
+
+    .info-1, .info-3{
+        padding-top: 2rem;
+    }
 }
 
 
