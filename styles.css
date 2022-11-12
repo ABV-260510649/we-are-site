@@ -197,7 +197,11 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:2rem 0;
+    padding:2rem 0rem;
+}
+
+.info-1, .info-2{
+    margin-right: 5rem;
 }
 
 .fact h1, .fact h2, .fact h3{
@@ -267,17 +271,17 @@ hr{
     z-index: 10px;
     cursor: pointer;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .btn-prev {
-    top: 45%;
-    left: 2%;
+    top: 30%;
+    left: -2%;
   }
   
   .btn-next {
-    top: 45%;
-    right: 2%;
+    top: 30%;
+    right: -2%;
   }
 
 .icon{
