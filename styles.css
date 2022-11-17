@@ -274,8 +274,8 @@ body{
     transition: all 0.5s;
   }
 
-  #grad{
-    padding-top: 4.6rem;
+  .grad{
+    padding-top: 2.5rem;
   }
 
   .button {
