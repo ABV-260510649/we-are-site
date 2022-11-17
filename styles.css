@@ -275,7 +275,7 @@ body{
   }
 
   .grad{
-    padding-top: 2.5rem;
+    padding-top: 3rem;
   }
 
   .button {
@@ -291,13 +291,13 @@ body{
   }
 
   .btn-prev {
-    top: 60%;
+    top: 55%;
     left: 25%;
     color: rgb(102, 20, 36);
   }
   
   .btn-next {
-    top: 60%;
+    top: 55%;
     right: 25%;
     color: rgb(102, 20, 36);
   }
@@ -321,11 +321,11 @@ body{
 
 @media (max-width: 1250px){
     .btn-prev {
-        top: 70%;
+        top: 50%;
       }
       
       .btn-next {
-        top: 70%;
+        top: 50%;
       }
 }
 
@@ -357,11 +357,11 @@ body{
     }
 
     .btn-prev {
-        top: 50%;
+        top: 40%;
       }
       
       .btn-next {
-        top: 50%;
+        top: 40%;
       }
 }
 
@@ -381,13 +381,13 @@ body{
 
 @media(max-width:900px){
     .btn-prev {
-        top: 60%;
+        top: 50%;
         left: 15%;
 
       }
       
       .btn-next {
-        top: 60%;
+        top: 50%;
         right: 15%;
       }
 }
@@ -438,12 +438,12 @@ body{
     }
 
     .btn-prev {
-        top: 40%;
+        top: 35%;
         left: 30%;
       }
       
       .btn-next {
-        top: 40%;
+        top: 35%;
         right: 30%;
       }
 }
